@@ -1,0 +1,91 @@
+
+/*globales*/
+:root{
+    --color-rosado: #ffdfff;
+    --color--blanco: #f1f1f1;
+    --color-verde: rgb(208, 240, 215);
+    --header: 80px;
+}
+
+/*pato*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: var(--color-verde);
+}
+
+/*esta clase esta en app.html*/
+.contenedor{ 
+    max-width: 1600px;
+    margin: auto;
+}
+
+/*esta clase esta en menu.html*/
+.menu{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    justify-content: space-between;
+}
+
+/*esta clase esta en app.html*/
+.menu_dos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu_link{
+    text-decoration: none;
+    /*font-family: "varsity";*/
+    font-family: "Rokkitt", serif;
+    color: black;
+    font-weight: 600;  /*hace mas gruesa la letra*/
+}
+
+/*esta clase esta en logo.html*/
+.logo{
+    width: 50px;
+}
+
+/*esta clase esta en index.html*/
+/*todo esto es para alinear los datos, la foto y acomodarla como corresponde*/
+.imagen_perfil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.seccion_perfil{
+    display: flex;
+    align-items: center;
+
+}
+
+.perfil{
+    display: flex;
+    align-items: center;
+    gap: 8rem;
+}
+
+.datos{
+    display: flex;
+    align-items: center;
+    font-size: larger;
+}
+
+.foto_perfil{
+    max-width: 450px;
+}
+
+/*para cargar una fuente previamente descargada
+@font-face{
+    font-family: "varsity";
+    src: "varsity.otf";
+}

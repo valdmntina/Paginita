@@ -1,0 +1,32 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href={% static 'main.css' %}>
+    <script src={% static 'main.js' %}></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Portafolio</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="contenedor menu_dos">
+            {% include "layouts/partials/logo.html" %}
+            {% include "layouts/partials/menu.html" %}
+        </div>
+    </header>
+
+    {% block content %}{% endblock %}
+
+</body>
+
+</html>
