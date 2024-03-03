@@ -6,5 +6,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path("", views.inicio, name="inicio"),
     path("portafolio/", views.portafolio, name="portafolio"),
-    path("formulario/", views.formulario name="formulario")
+    path("formulario/", views.formulario, name="formulario")
 ]
