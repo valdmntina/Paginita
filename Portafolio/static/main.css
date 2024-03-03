@@ -61,6 +61,7 @@ header{
 
 /*FIN MENU*/
 
+/*PAGINA INICIO*/
 /*esta clase esta en index.html*/
 /*todo esto es para alinear los datos, la foto y acomodarla como corresponde*/
 .imagen_perfil{
@@ -99,8 +100,9 @@ header{
     src: "varsity.otf";
 }
 
-/*PORTAFOLIO*/
+/*FIN PAGINA INICIO*/
 
+/*PORTAFOLIO*/
 /*clase sacada de portafolio.html*/
 .portafolio__bloque{
     display: flex;
