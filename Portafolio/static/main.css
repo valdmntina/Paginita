@@ -7,7 +7,7 @@
     --header: 80px;
 }
 
-/*pato*/
+/*pa to*/
 *{
     padding: 0;
     margin: 0;
@@ -24,6 +24,8 @@ header{
     margin: auto;
 }
 
+
+/*MENU*/
 /*esta clase esta en menu.html*/
 .menu{
     display: flex;
@@ -47,10 +49,17 @@ header{
     font-weight: 600;  /*hace mas gruesa la letra*/
 }
 
+.menu_link:hover{
+    background-color: var(--color-rosado);
+    color: var(--color--blanco);
+}
+
 /*esta clase esta en logo.html*/
 .logo{
     width: 50px;
 }
+
+/*FIN MENU*/
 
 /*esta clase esta en index.html*/
 /*todo esto es para alinear los datos, la foto y acomodarla como corresponde*/
@@ -88,4 +97,27 @@ header{
 @font-face{
     font-family: "varsity";
     src: "varsity.otf";
+}
+
+/*PORTAFOLIO*/
+
+/*clase sacada de portafolio.html*/
+.portafolio__bloque{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*clase sacada de portafolio.html*/
+.portafolio_imagenes {
+    width: 240px;
+    max-width: 100%;
+    height: 205px;
+}
+
+/*clase sacada de portafolio.html*/
+.tarjeta{
+    width: 240px;
+    height: auto;
+    text-decoration: none;
+    padding: 24px;
 }

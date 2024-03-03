@@ -1,0 +1,82 @@
+{% extends "layouts/app.html" %}
+
+{% load static %}
+
+{% block title %}
+<title> Portafolio </title>
+{% endblock title %}
+
+{% block content %}
+
+<section class="seccion_portafolio">
+
+    <h1>Portafolio</h1>
+    <div class="contenedor">
+        <div class="portafolio__bloque">
+
+            <a href="#" class="tarjeta">
+                <figure>
+                    <img class="portafolio_imagenes" src="{% static "images/calimomento.jpeg" %}" alt="mapache 1">
+                    <figcaption>
+                        <h3>Mapache uno</h3>
+                        <p>mapache con objeto no identificado</p>
+                    </figcaption>
+                </figure>
+            </a>
+
+            <a href="#" class="tarjeta">    
+            <figure>
+                <img class="portafolio_imagenes" src="{% static "images/chillon.jpeg" %}" alt="mapache 2">
+                <figcaption>
+                    <h3>Mapache dos</h3>
+                    <p>mapache esuchando lamento boliviano</p>
+                </figcaption>
+            </figure>
+            </a>
+
+            <a href="#" class="tarjeta">
+            <figure>
+                <img class="portafolio_imagenes" src="{% static "images/gafufo.jpeg" %}" alt="mapache 3">
+                <figcaption>
+                    <h3>Mapache tres</h3>
+                    <p>mapache programador promedio</p>
+                </figcaption>
+            </figure>
+            </a>
+
+            <a href="#" class="tarjeta">
+            <figure>
+                <img class="portafolio_imagenes" src="{% static "images/malandroso.jpeg" %}" alt="mapache 4">
+                <figcaption>
+                    <h3>Mapache cuatro</h3>
+                    <p>mapache con flow</p>
+                </figcaption>
+            </figure>
+            </a>
+
+            <a href="#" class="tarjeta">
+            <figure>
+                <img class="portafolio_imagenes" src="{% static "images/reflexivo.jpeg" %}" alt="mapache 5">
+                <figcaption>
+                    <h3>Mapache cinco</h3>
+                    <p>mapache analizando la situacion del pais</p>
+                </figcaption>
+            </figure>
+            </a>
+
+            <a href="#" class="tarjeta">
+            <figure>
+                <img class="portafolio_imagenes" src="{% static "images/aferrado.jpeg" %}" alt="mapache 6">
+                <figcaption>
+                    <h3>Mapache seis</h3>
+                    <p>mapache no soltando su recuerdo</p>
+                </figcaption>
+            </figure>
+            </a>
+
+        </div>
+    </div>
+
+</section>
+
+{% endblock content %}
